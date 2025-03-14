@@ -1,9 +1,20 @@
 .color{
-    background: rgb(34,193,195);
-background: -moz-radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(51,45,253,1) 100%);
-background: -webkit-radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(51,45,253,1) 100%);
-background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(51,45,253,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#332dfd",GradientType=1);
-
-
+    background-image: linear-gradient(
+        45deg,
+        hsl(240deg 92% 67%) 0%,
+        hsl(272deg 82% 63%) 6%,
+        hsl(297deg 69% 57%) 13%,
+        hsl(316deg 97% 60%) 20%,
+        hsl(323deg 100% 59%) 29%,
+        hsl(332deg 100% 61%) 37%,
+        hsl(344deg 100% 65%) 46%,
+        hsl(2deg 100% 70%) 55%,
+        hsl(20deg 100% 65%) 64%,
+        hsl(33deg 100% 60%) 73%,
+        hsl(43deg 100% 53%) 82%,
+        hsl(50deg 100% 50%) 91%,
+        hsl(55deg 100% 50%) 100%
+      );
 }
+
+
